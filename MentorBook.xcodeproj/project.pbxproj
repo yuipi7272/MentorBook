@@ -13,6 +13,10 @@
 		5895BBE528B9FD4F00B461F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5895BBE328B9FD4F00B461F4 /* Main.storyboard */; };
 		5895BBE728B9FD5000B461F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5895BBE628B9FD5000B461F4 /* Assets.xcassets */; };
 		5895BBEA28B9FD5000B461F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5895BBE828B9FD5000B461F4 /* LaunchScreen.storyboard */; };
+		5895BBF528B9FDFE00B461F4 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5895BBF228B9FDFE00B461F4 /* ryo.jpg */; };
+		5895BBF628B9FDFE00B461F4 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5895BBF328B9FDFE00B461F4 /* nagata.jpg */; };
+		5895BBF728B9FDFE00B461F4 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5895BBF428B9FDFE00B461F4 /* taithi.jpg */; };
+		5895BBF928B9FFF500B461F4 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5895BBF828B9FFF500B461F4 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5895BBE628B9FD5000B461F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5895BBE928B9FD5000B461F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5895BBEB28B9FD5000B461F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5895BBF228B9FDFE00B461F4 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		5895BBF328B9FDFE00B461F4 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		5895BBF428B9FDFE00B461F4 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		5895BBF828B9FFF500B461F4 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		5895BBDC28B9FD4F00B461F4 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				5895BBF128B9FDFE00B461F4 /* images */,
 				5895BBDD28B9FD4F00B461F4 /* AppDelegate.swift */,
 				5895BBDF28B9FD4F00B461F4 /* SceneDelegate.swift */,
 				5895BBE128B9FD4F00B461F4 /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				5895BBE628B9FD5000B461F4 /* Assets.xcassets */,
 				5895BBE828B9FD5000B461F4 /* LaunchScreen.storyboard */,
 				5895BBEB28B9FD5000B461F4 /* Info.plist */,
+				5895BBF828B9FFF500B461F4 /* Mentor.swift */,
 			);
 			path = MentorBook;
+			sourceTree = "<group>";
+		};
+		5895BBF128B9FDFE00B461F4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5895BBF228B9FDFE00B461F4 /* ryo.jpg */,
+				5895BBF328B9FDFE00B461F4 /* nagata.jpg */,
+				5895BBF428B9FDFE00B461F4 /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5895BBF728B9FDFE00B461F4 /* taithi.jpg in Resources */,
+				5895BBF528B9FDFE00B461F4 /* ryo.jpg in Resources */,
+				5895BBF628B9FDFE00B461F4 /* nagata.jpg in Resources */,
 				5895BBEA28B9FD5000B461F4 /* LaunchScreen.storyboard in Resources */,
 				5895BBE728B9FD5000B461F4 /* Assets.xcassets in Resources */,
 				5895BBE528B9FD4F00B461F4 /* Main.storyboard in Resources */,
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5895BBF928B9FFF500B461F4 /* Mentor.swift in Sources */,
 				5895BBE228B9FD4F00B461F4 /* ViewController.swift in Sources */,
 				5895BBDE28B9FD4F00B461F4 /* AppDelegate.swift in Sources */,
 				5895BBE028B9FD4F00B461F4 /* SceneDelegate.swift in Sources */,
